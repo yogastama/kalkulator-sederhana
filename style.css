@@ -1,0 +1,81 @@
+* {
+    font-family: "Montserrat";
+}
+
+.kalkulator {
+    width: 300px;
+    background-color: #eaeaea;
+    margin: 50px auto 0px auto;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#layar {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    padding: 7px;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+    text-align: right;
+    margin-top: 5px;
+    background-color: #fff;
+
+}
+
+.container-tombol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tombol:nth-child(4n+1) {
+    border-left: 1px solid #cecece;
+}
+
+.tombol {
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    color: gray;
+    height: 70px;
+    border: 1px solid #cecece;
+    border-left: none;
+    border-top: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.tombol:hover {
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+#nol {
+    flex-grow: 1;
+}
+
+.operator {
+    background-color: #d8d8d8;
+}
+
+#hitung {
+    background-color: #ffa64a;
+    color: #fff;
+}
+
+#hitung:hover {
+    background-color: orange;
+}
+
+.riwayat {
+    width: 100%;
+    text-align: right;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    padding: 3px;
+    color: #696767;
+    display: none;
+}
